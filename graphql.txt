@@ -1,0 +1,11 @@
+query me {
+    me {
+      _id
+      username
+      email
+      posts
+      comments
+      friends
+    }
+  }
+

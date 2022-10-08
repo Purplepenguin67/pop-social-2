@@ -1,0 +1,103 @@
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.small {
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Update styles */
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: rgb(236, 236, 236);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+#miniNav h5 {
+  font-family: 'Shrikhand', cursive;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#trending {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+#status {
+  margin-top: 10px;
+}
+
+#status h3 {
+  font-family: 'Shrikhand', cursive;
+}
+
+#homeNavbar {
+  margin-left: 10px;
+  background-color: transparent;
+  /*will change background-color of element */
+  /*will change color of text within the element */
+  font-Family: 'Shrikhand';
+  color: #d6909b;
+  display: flex;
+  justify-content: space-between;
+}
+
+#homeNavbar:hover {
+  background-color: transparent;
+  /*will change background-color of element on hover */
+  color: #9bdbc1;
+  /*will change color of text within the element on hover */
+}
+
+.small {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.font-link {
+  font-family: 'Shrikhand', cursive;
+
+}
+
+.nav-links {
+  display: inline-block;
+  height: 20px;
+  background-color: white;
+  /*will change background-color of element */
+  color: green;
+  /*will change color of text within the element */
+}
+
+.nav-links:hover {
+  background-color: green;
+  /*will change background-color of element on hover */
+  color: white;
+  /*will change color of text within the element on hover */
+}
+
+/* Add */
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
